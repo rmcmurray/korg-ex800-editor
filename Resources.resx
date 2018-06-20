@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DialogTextFatalInitError" xml:space="preserve">
+    <value>A fatal error occured when trying to initialize the MIDI device:</value>
+  </data>
+  <data name="DialogTextFatalInitInputError" xml:space="preserve">
+    <value>A fatal error occured when trying to initialize the MIDI input device:</value>
+  </data>
+  <data name="DialogTextFatalInitOutputError" xml:space="preserve">
+    <value>A fatal error occured when trying to initialize the MIDI output device:</value>
+  </data>
+  <data name="DialogTextGenericErrorOccurred" xml:space="preserve">
+    <value>The following error occurred:</value>
+  </data>
+  <data name="DialogTextHelpAbout" xml:space="preserve">
+    <value>The Korg EX-800 Voice Editor was written by Robert McMurray.
+   (www.robertmcmurray.com)
+
+Special thanks to Leslie Sanford for the C# MIDI Toolkit.
+   (www.lesliesanford.com)</value>
+  </data>
+  <data name="DialogTextIncorrectSysexDataSize" xml:space="preserve">
+    <value>The sysex data received was not the correct length.
+
+Make sure that no other MIDI devices are transmitting.</value>
+  </data>
+  <data name="DialogTextIncorrectSysexFileSize" xml:space="preserve">
+    <value>The file that you selected is not the correct size.
+
+Please check the file and try again.</value>
+  </data>
+  <data name="DialogTextMidiErrorOccurred" xml:space="preserve">
+    <value>The following MIDI error occurred:</value>
+  </data>
+  <data name="DialogTextMidiTimeoutError" xml:space="preserve">
+    <value>MIDI data was not received within the allotted time.
+
+Check your settings and MIDI connections then try again.</value>
+  </data>
+  <data name="DialogTextNoInputDevices" xml:space="preserve">
+    <value>No MIDI Input devices are available.
+
+You will not be able to receive MIDI messages.</value>
+  </data>
+  <data name="DialogTextNoOutputDevices" xml:space="preserve">
+    <value>No MIDI output devices are available.
+
+You will not be able to send MIDI messages.</value>
+  </data>
+  <data name="DialogTextOpenFile" xml:space="preserve">
+    <value>Open File</value>
+  </data>
+  <data name="DialogTextSaveFile" xml:space="preserve">
+    <value>Save File</value>
+  </data>
+  <data name="DialogTextSysexExtension" xml:space="preserve">
+    <value>syx</value>
+  </data>
+  <data name="DialogTextSysexFilter" xml:space="preserve">
+    <value>SysEx files|*.syx|All files|*.*</value>
+  </data>
+  <data name="DialogTextUnsavedChanges" xml:space="preserve">
+    <value>You have unsaved changes.
+
+Do you want to save your changes before continuing?</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Korg EX-800 Voice Editor</value>
+  </data>
+  <data name="MenuTextAbout" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="MenuTextEmptyVoices" xml:space="preserve">
+    <value>&amp;Empty Voices</value>
+  </data>
+  <data name="MenuTextExit" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="MenuTextFile" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="MenuTextHelp" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="MenuTextInputDevice" xml:space="preserve">
+    <value>&amp;Input Device</value>
+  </data>
+  <data name="MenuTextMIDI" xml:space="preserve">
+    <value>&amp;MIDI</value>
+  </data>
+  <data name="MenuTextNew" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="MenuTextOpen" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="MenuTextOptions" xml:space="preserve">
+    <value>&amp;Options</value>
+  </data>
+  <data name="MenuTextOutputDevice" xml:space="preserve">
+    <value>&amp;Output Device</value>
+  </data>
+  <data name="MenuTextRandomVoices" xml:space="preserve">
+    <value>&amp;Random Voices</value>
+  </data>
+  <data name="MenuTextRequestBank" xml:space="preserve">
+    <value>&amp;Request Bank</value>
+  </data>
+  <data name="MenuTextSave" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="MenuTextSendBank" xml:space="preserve">
+    <value>&amp;Send Bank</value>
+  </data>
+  <data name="UiTextAttack" xml:space="preserve">
+    <value>Attack</value>
+  </data>
+  <data name="UiTextBreak" xml:space="preserve">
+    <value>Break</value>
+  </data>
+  <data name="UiTextChorus" xml:space="preserve">
+    <value>Chorus</value>
+  </data>
+  <data name="UiTextDCO1" xml:space="preserve">
+    <value>Digitally Controlled Oscillator 1</value>
+  </data>
+  <data name="UiTextDCO1EnvelopeMap" xml:space="preserve">
+    <value>DCO 1 Envelope Map</value>
+  </data>
+  <data name="UiTextDCO2" xml:space="preserve">
+    <value>Digitally Controlled Oscillator 2</value>
+  </data>
+  <data name="UiTextDCO2EnvelopeMap" xml:space="preserve">
+    <value>DCO 2 Envelope Map</value>
+  </data>
+  <data name="UiTextDCOModeLabel" xml:space="preserve">
+    <value>DCO Mode</value>
+  </data>
+  <data name="UiTextDCOModeWhole" xml:space="preserve">
+    <value>Note: The controls for DCO 2 are disabled while the DCO mode is set to 'Whole'.</value>
+  </data>
+  <data name="UiTextDecay" xml:space="preserve">
+    <value>Decay</value>
+  </data>
+  <data name="UiTextDetune" xml:space="preserve">
+    <value>Detune</value>
+  </data>
+  <data name="UiTextDouble" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="UiTextDown" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="UiTextFull" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="UiTextHalf" xml:space="preserve">
+    <value>Half</value>
+  </data>
+  <data name="UiTextHarmonic16" xml:space="preserve">
+    <value>16'</value>
+  </data>
+  <data name="UiTextHarmonic2" xml:space="preserve">
+    <value>2'</value>
+  </data>
+  <data name="UiTextHarmonic4" xml:space="preserve">
+    <value>4'</value>
+  </data>
+  <data name="UiTextHarmonic8" xml:space="preserve">
+    <value>8'</value>
+  </data>
+  <data name="UiTextHarmonics" xml:space="preserve">
+    <value>Harmonics</value>
+  </data>
+  <data name="UiTextHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="UiTextInterval" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="UiTextKBDTrack" xml:space="preserve">
+    <value>KBD T.</value>
+  </data>
+  <data name="UiTextLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="UiTextLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="UiTextMGDCO" xml:space="preserve">
+    <value>DCO</value>
+  </data>
+  <data name="UiTextMGDelay" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="UiTextMGFrequency" xml:space="preserve">
+    <value>Freq.</value>
+  </data>
+  <data name="UiTextMGVCF" xml:space="preserve">
+    <value>VCF</value>
+  </data>
+  <data name="UiTextMid" xml:space="preserve">
+    <value>Mid</value>
+  </data>
+  <data name="UiTextMG" xml:space="preserve">
+    <value>Modulation Generator</value>
+  </data>
+  <data name="UiTextMulti" xml:space="preserve">
+    <value>Multi</value>
+  </data>
+  <data name="UiTextNoise" xml:space="preserve">
+    <value>Noise</value>
+  </data>
+  <data name="UiTextOctave" xml:space="preserve">
+    <value>Octave</value>
+  </data>
+  <data name="UiTextOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="UiTextOn" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="UiTextPolarity" xml:space="preserve">
+    <value>Polarity</value>
+  </data>
+  <data name="UiTextRelease" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="UiTextSawtooth" xml:space="preserve">
+    <value>Sawtooth</value>
+  </data>
+  <data name="UiTextSingle" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="UiTextSlope" xml:space="preserve">
+    <value>Slope</value>
+  </data>
+  <data name="UiTextSquarewave" xml:space="preserve">
+    <value>Squarewave</value>
+  </data>
+  <data name="UiTextSustain" xml:space="preserve">
+    <value>Sustain</value>
+  </data>
+  <data name="UiTextTrigger" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="UiTextUp" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="UiTextVCFandMG" xml:space="preserve">
+    <value>Voltage Controlled Filter (VCF) and MG</value>
+  </data>
+  <data name="UiTextVCFCutoff" xml:space="preserve">
+    <value>Cutoff</value>
+  </data>
+  <data name="UiTextVCFEGIntensity" xml:space="preserve">
+    <value>EG Int.</value>
+  </data>
+  <data name="UiTextVCFResonance" xml:space="preserve">
+    <value>Reson.</value>
+  </data>
+  <data name="UiTextVoice" xml:space="preserve">
+    <value>Voice</value>
+  </data>
+  <data name="UiTextWaveform" xml:space="preserve">
+    <value>Waveform</value>
+  </data>
+  <data name="UiTextWhole" xml:space="preserve">
+    <value>Whole</value>
+  </data>
+  <data name="UiTextDCOModeDouble" xml:space="preserve">
+    <value>The controls for DCO 2 are enabled while the DCO mode is set to 'Double'.</value>
+  </data>
+</root>

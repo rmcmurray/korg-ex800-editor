@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korg EX-800 Editor", "Korg EX-800 Editor.csproj", "{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanford.Multimedia.Midi", "Sanford.Multimedia.Midi\Sanford.Multimedia.Midi.csproj", "{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{E924CE7A-19EA-40C0-A1E0-0896BA7D0BAE}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{4269C72A-8D3A-4737-8F89-72EAA33EA9E1}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{587A9765-D3F1-475D-B0D1-916C50D9E4A6}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{587A9765-D3F1-475D-B0D1-916C50D9E4A6}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{587A9765-D3F1-475D-B0D1-916C50D9E4A6}.Debug|Any CPU.ActiveCfg = DVD-5
+		{587A9765-D3F1-475D-B0D1-916C50D9E4A6}.Debug|Any CPU.Build.0 = DVD-5
+		{587A9765-D3F1-475D-B0D1-916C50D9E4A6}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{587A9765-D3F1-475D-B0D1-916C50D9E4A6}.DVD-5|Any CPU.Build.0 = DVD-5
+		{587A9765-D3F1-475D-B0D1-916C50D9E4A6}.Release|Any CPU.ActiveCfg = SingleImage
+		{587A9765-D3F1-475D-B0D1-916C50D9E4A6}.Release|Any CPU.Build.0 = SingleImage
+		{587A9765-D3F1-475D-B0D1-916C50D9E4A6}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{587A9765-D3F1-475D-B0D1-916C50D9E4A6}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
