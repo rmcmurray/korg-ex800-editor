@@ -18,7 +18,7 @@ The main window of the application looks like the following illustration, where 
 
 ![Main Window](./Screenshots/screenshot-main-screen.png)
 
-On a separate tab, you can edit the parameters for the Voltage Controlled Oscillator (VCF) and Modulation Generator (MG):
+On a separate tab, you can edit the parameters for the Voltage Controlled Filter (VCF) and Modulation Generator (MG):
 
 ![Voltage Controlled Oscillator and Modulation Generator](./Screenshots/screenshot-vcf-and-mg.png)
 
