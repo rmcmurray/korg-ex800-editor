@@ -14,9 +14,13 @@ Install-Package Sanford.Multimedia.Midi
 
 ## Screenshots
 
-The main window of the application looks like the following illustration:
+The main window of the application looks like the following illustration, where you can edit the parameters for the Digitally-Controlled Oscillators (DCOs) and view the Envelope Generators (EGs):
 
 ![Main Window](./Screenshots/screenshot-main-screen.png)
+
+On a separate tab, you can edit the parameters for the Voltage Controlled Oscillator (VCF) and Modulation Generator (MG):
+
+![Voltage Controlled Oscillator and Modulation Generator](./Screenshots/screenshot-vcf-and-mg.png)
 
 You can use the application to create banks of random voices:
 
