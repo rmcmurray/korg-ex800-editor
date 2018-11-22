@@ -2,7 +2,7 @@
 
 This application is a GUI-based Editor/Librarian for the Korg EX-800 Synthesizer that is written in C# and .NET. (I would imagine that it might work with the Korg Poly 800 as well, but I have not tested it.)
 
-This editor/librarian does *not* support the features that are provided through the "HAWK-800" kit. (<http://www.hawk800.com/>)
+This editor/librarian does not support the additional features that are introduced by the "HAWK-800" kit. (<http://www.hawk800.com/>)
 
 ## Dependencies
 
